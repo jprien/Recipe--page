@@ -1,0 +1,113 @@
+body {
+    background: hsl(28, 52%, 90%);/*#f3e5d8;*/
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*font-family: 'Young Serif', serif;*/
+.card {           /*wrapped content in div class card */
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 32px;
+}
+
+.recipe-title{
+   font-size: 2.2em;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+
+ 
+h1 { 
+   font-family: 'Young serif', serif;
+}
+ 
+
+h2, h3{
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+   margin-top: 32px;
+   margin-bottom: 12px;
+}
+
+.prep-heading {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.prep-box{
+   background: #fff7fb;
+   border-radius: 10px;
+   padding: 18px 24px;
+   margin-bottom: 24px;
+}
+
+.prep-list {
+  list-style: disc inside;
+}
+
+.omlette-image {        /* rounded image and fit in the card*/
+   width: 100%;
+   height: auto;
+   border-radius: 12px;
+   margin-bottom: 24px;
+}
+
+p{ 
+   font-size: 16px;
+}
+
+td {
+   padding: 8px 60px;
+   color: hsl(14, 45%, 36%);
+}
+
+.nutrition-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 16px;
+}
+
+.nutrition-table td:nth-child(2) {   /*added color, boldness and moved it left */
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    text-align: left;
+}
+
+.nutrition-table td {
+   padding: 12px 0;
+   border-bottom: 1px solid #eee;  
+}
+
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+
+
+.ingredient-list {
+   list-style: disc inside;
+   padding-left: 20px;
+   margin-bottom: 24x;
+}
+
+.ingredient-list li {
+    padding-bottom: 24px;
+}
+
+.instructions-list{
+   list-style: decimal inside;
+   padding-left: 0px;
+}
+
+.instructions-list li {
+    margin-bottom: 12px;
+}
+
+strong {
+   color: hsl(30, 10%, 28%);
+}
