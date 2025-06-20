@@ -23,7 +23,7 @@ Using basic HTML and CSS to make a recipe page. tried to get it as close to the 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Recipe--page](https://jprien.github.io/Recipe--page/)
 
 ## My process
 first started with the html file and got the strucutre and content. 
